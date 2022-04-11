@@ -1,0 +1,57 @@
+2017-09-28 19:02:32 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@56de5251: startup date [Thu Sep 28 19:02:32 UYT 2017]; root of context hierarchy
+2017-09-28 19:02:35 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/portal/context.xml]
+2017-09-28 19:02:37 [main] INFO  o.s.c.a.ConfigurationClassBeanDefinitionReader - Skipping bean definition for [BeanMethod:name=jacksonObjectMapper,declaringClass=org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration]: a definition for bean 'jacksonObjectMapper' already exists. This top-level bean definition is considered as an override.
+2017-09-28 19:02:37 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-09-28 19:02:40 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2017-09-28 19:02:40 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 7766 ms
+2017-09-28 19:02:41 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-28 19:02:41 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'CXFServlet' to [/api/*]
+2017-09-28 19:02:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-28 19:02:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-28 19:02:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-28 19:02:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-28 19:02:41 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'simpleCORSFilter' to: [/*]
+2017-09-28 19:02:44 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-28 19:02:46 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-28 19:02:49 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@56de5251: startup date [Thu Sep 28 19:02:32 UYT 2017]; root of context hierarchy
+2017-09-28 19:02:49 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-28 19:02:49 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-28 19:02:49 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-28 19:02:49 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-28 19:02:50 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-28 19:02:50 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2017-09-28 19:02:50 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2017-09-28 19:03:20 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate], accept-language=[es-MX,es-ES;q=0.9,es;q=0.7,es-AR;q=0.6,es-CL;q=0.4,en-US;q=0.3,en;q=0.1], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/recipes/0], user-agent=[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0]}
+--------------------------------------
+2017-09-28 19:03:21 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Thu, 28 Sep 2017 22:03:21 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0,"recipeId":1},{"name":"Queso","amount":4.0,"recipeId":1}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0,"recipeId":2},{"name":"Panes","amount":2.0,"recipeId":2}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0,"recipeId":3},{"name":"Fritas","amount":40.0,"recipeId":3}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0,"recipeId":4}]}]}
+--------------------------------------
+2017-09-28 19:03:28 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate], accept-language=[es-MX,es-ES;q=0.9,es;q=0.7,es-AR;q=0.6,es-CL;q=0.4,en-US;q=0.3,en;q=0.1], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/recipes], user-agent=[Mozilla/5.0 (Windows NT 10.0; WOW64; rv:55.0) Gecko/20100101 Firefox/55.0]}
+--------------------------------------
+2017-09-28 19:03:28 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Thu, 28 Sep 2017 22:03:28 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0,"recipeId":1},{"name":"Queso","amount":4.0,"recipeId":1}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0,"recipeId":2},{"name":"Panes","amount":2.0,"recipeId":2}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0,"recipeId":3},{"name":"Fritas","amount":40.0,"recipeId":3}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0,"recipeId":4}]}]}
+--------------------------------------

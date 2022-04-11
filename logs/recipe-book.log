@@ -1,0 +1,1433 @@
+2022-04-11 00:21:07 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 78
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:21:07 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 78
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 03:21:07 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 00:23:27 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 79
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:23:27 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 79
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 03:23:27 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 00:23:39 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 80
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:23:39 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 80
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 03:23:39 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 00:25:14 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 81
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:25:14 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 81
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 03:25:14 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 00:25:55 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 82
+Address: http://localhost:8080/api/recipe?0
+Encoding: UTF-8
+Http-Method: OPTIONS
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], access-control-request-method=[PUT], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:25:55 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 82
+Response-Code: 200
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Mon, 11 Apr 2022 03:25:55 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 00:25:55 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 83
+Address: http://localhost:8080/api/recipe?0
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[0], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:25:55 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 83
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Mon, 11 Apr 2022 03:25:55 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 00:28:29 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 84
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:28:29 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 84
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 03:28:29 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 00:28:49 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 85
+Address: http://localhost:8080/api/recipe?0
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[0], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:28:49 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 85
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Mon, 11 Apr 2022 03:28:49 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 00:29:06 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 86
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:29:06 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 86
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 03:29:06 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 00:29:30 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 87
+Address: http://localhost:8080/api/recipe?0
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[0], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:29:30 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 87
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Mon, 11 Apr 2022 03:29:30 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 00:30:06 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 88
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:30:06 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 88
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 03:30:06 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 00:30:31 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 89
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:30:31 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 89
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 03:30:31 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 00:31:03 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 90
+Address: http://localhost:8080/api/recipe?0
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[0], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:31:03 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 90
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Mon, 11 Apr 2022 03:31:03 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 00:31:10 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 91
+Address: http://localhost:8080/api/recipe?0
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[0], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:31:10 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 91
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Mon, 11 Apr 2022 03:31:10 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 00:32:55 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 92
+Address: http://localhost:8080/api/recipe?0
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[0], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:32:55 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 92
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Mon, 11 Apr 2022 03:32:55 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 00:32:57 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 93
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 00:32:57 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 93
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 03:32:57 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:06:01 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 94
+Address: http://localhost:8080/api/recipe?0
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[0], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:06:01 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 94
+Response-Code: 415
+Content-Type: 
+Headers: {Date=[Mon, 11 Apr 2022 04:06:01 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 01:06:11 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 95
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:06:11 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 95
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:06:11 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:06:22 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 96
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:06:22 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 96
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:06:22 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:09:31 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65d6b83b: startup date [Mon Apr 11 01:09:31 ART 2022]; root of context hierarchy
+2022-04-11 01:09:32 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/portal/context.xml]
+2022-04-11 01:09:32 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2022-04-11 01:09:33 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2022-04-11 01:09:33 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1915 ms
+2022-04-11 01:09:33 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2022-04-11 01:09:33 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'CXFServlet' to [/api/*]
+2022-04-11 01:09:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-04-11 01:09:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-04-11 01:09:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-04-11 01:09:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2022-04-11 01:09:33 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'simpleCORSFilter' to: [/*]
+2022-04-11 01:09:34 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-04-11 01:09:35 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-11 01:09:35 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65d6b83b: startup date [Mon Apr 11 01:09:31 ART 2022]; root of context hierarchy
+2022-04-11 01:09:36 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-04-11 01:09:36 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-04-11 01:09:36 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-04-11 01:09:36 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-04-11 01:09:36 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-04-11 01:09:36 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2022-04-11 01:09:36 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2022-04-11 01:10:01 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:10:01 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:10:01 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:11:41 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:11:41 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:11:41 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:11:45 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:11:45 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:11:45 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:14:44 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:14:44 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 4
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:14:44 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:20:39 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:20:39 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 5
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:20:39 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:20:44 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:20:44 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 6
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:20:44 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:20:49 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 7
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:20:49 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 7
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:20:49 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:22:09 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 8
+Address: http://localhost:8080/api/recipe?1
+Encoding: UTF-8
+Http-Method: OPTIONS
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], access-control-request-headers=[content-type], access-control-request-method=[PUT], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:22:09 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 8
+Response-Code: 200
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Mon, 11 Apr 2022 04:22:09 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 01:22:09 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 9
+Address: http://localhost:8080/api/recipe?1
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[282], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1},{"name":"Panes","amount":2}]}
+--------------------------------------
+2022-04-11 01:22:09 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 9
+Response-Code: 500
+Content-Type: 
+Headers: {Date=[Mon, 11 Apr 2022 04:22:09 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 01:24:18 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 10
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:24:18 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 10
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:24:18 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:25:33 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 11
+Address: http://localhost:8080/api/recipe?1
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[275], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","name":"Hamburguesa grasienta","ingredients":[{"name":"Carne","amount":1},{"name":"Panes","amount":2}]}
+--------------------------------------
+2022-04-11 01:25:33 [http-nio-8080-exec-6] ERROR o.a.c.i.AbstractFaultChainInitiatorObserver - Error occurred during error handling, give up!
+org.apache.cxf.interceptor.Fault: null
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:189)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:99)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:263)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:189)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPut(AbstractHTTPServlet.java:235)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at app.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:27)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NullPointerException: null
+	at app.recipe.service.RecipeServiceImpl.updateRecipe(RecipeServiceImpl.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 55 common frames omitted
+2022-04-11 01:25:33 [http-nio-8080-exec-6] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2022-04-11 01:25:33 [http-nio-8080-exec-6] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2022-04-11 01:36:32 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 12
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:36:32 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 12
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:36:32 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:37:37 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 13
+Address: http://localhost:8080/api/recipe?1
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[275], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","name":"Hamburguesa grasienta","ingredients":[{"name":"Carne","amount":1},{"name":"Panes","amount":2}]}
+--------------------------------------
+2022-04-11 01:37:37 [http-nio-8080-exec-9] ERROR o.a.c.i.AbstractFaultChainInitiatorObserver - Error occurred during error handling, give up!
+org.apache.cxf.interceptor.Fault: null
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:189)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:99)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:263)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:189)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPut(AbstractHTTPServlet.java:235)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at app.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:27)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NullPointerException: null
+	at app.recipe.service.RecipeServiceImpl.updateRecipe(RecipeServiceImpl.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 55 common frames omitted
+2022-04-11 01:38:51 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 14
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:38:51 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 14
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:38:51 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:39:43 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 15
+Address: http://localhost:8080/api/recipe?1
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[275], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","name":"Hamburguesa grasienta","ingredients":[{"name":"Carne","amount":1},{"name":"Panes","amount":2}]}
+--------------------------------------
+2022-04-11 01:39:43 [http-nio-8080-exec-1] ERROR o.a.c.i.AbstractFaultChainInitiatorObserver - Error occurred during error handling, give up!
+org.apache.cxf.interceptor.Fault: null
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:189)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:99)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:263)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:189)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPut(AbstractHTTPServlet.java:235)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at app.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:27)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NullPointerException: null
+	at app.recipe.service.RecipeServiceImpl.updateRecipe(RecipeServiceImpl.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 55 common frames omitted
+2022-04-11 01:41:27 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 16
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:41:27 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 16
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:41:27 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:42:58 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 17
+Address: http://localhost:8080/api/recipe?1
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[283], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1},{"name":"Panes","amount":2}]}
+--------------------------------------
+2022-04-11 01:42:58 [http-nio-8080-exec-5] ERROR o.a.c.i.AbstractFaultChainInitiatorObserver - Error occurred during error handling, give up!
+org.apache.cxf.interceptor.Fault: null
+	at org.apache.cxf.service.invoker.AbstractInvoker.createFault(AbstractInvoker.java:162)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:128)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:189)
+	at org.apache.cxf.jaxrs.JAXRSInvoker.invoke(JAXRSInvoker.java:99)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor$1.run(ServiceInvokerInterceptor.java:59)
+	at org.apache.cxf.interceptor.ServiceInvokerInterceptor.handleMessage(ServiceInvokerInterceptor.java:96)
+	at org.apache.cxf.phase.PhaseInterceptorChain.doIntercept(PhaseInterceptorChain.java:308)
+	at org.apache.cxf.transport.ChainInitiationObserver.onMessage(ChainInitiationObserver.java:121)
+	at org.apache.cxf.transport.http.AbstractHTTPDestination.invoke(AbstractHTTPDestination.java:263)
+	at org.apache.cxf.transport.servlet.ServletController.invokeDestination(ServletController.java:234)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:208)
+	at org.apache.cxf.transport.servlet.ServletController.invoke(ServletController.java:160)
+	at org.apache.cxf.transport.servlet.CXFNonSpringServlet.invoke(CXFNonSpringServlet.java:189)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.handleRequest(AbstractHTTPServlet.java:299)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.doPut(AbstractHTTPServlet.java:235)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:664)
+	at org.apache.cxf.transport.servlet.AbstractHTTPServlet.service(AbstractHTTPServlet.java:274)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at app.SimpleCORSFilter.doFilter(SimpleCORSFilter.java:27)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:108)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1457)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NullPointerException: null
+	at app.recipe.service.RecipeServiceImpl.updateRecipe(RecipeServiceImpl.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.cxf.service.invoker.AbstractInvoker.performInvocation(AbstractInvoker.java:180)
+	at org.apache.cxf.service.invoker.AbstractInvoker.invoke(AbstractInvoker.java:96)
+	... 55 common frames omitted
+2022-04-11 01:44:10 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 18
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:44:10 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 18
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:44:10 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[{"name":"asdfa","amount":1212.0}]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:44:56 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 19
+Address: http://localhost:8080/api/recipe?id=1
+Encoding: UTF-8
+Http-Method: OPTIONS
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], access-control-request-headers=[content-type], access-control-request-method=[PUT], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:44:56 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 19
+Response-Code: 200
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Mon, 11 Apr 2022 04:44:56 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 01:44:56 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 20
+Address: http://localhost:8080/api/recipe?id=1
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[283], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1},{"name":"Panes","amount":2}]}
+--------------------------------------
+2022-04-11 01:44:57 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 20
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:44:57 GMT]}
+Payload: {"code":"200","description":"Registro actualizado con exito"}
+--------------------------------------
+2022-04-11 01:47:22 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 21
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:47:22 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 21
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:47:22 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]},{"id":17,"name":"asdfadsf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":18,"name":"asdfasdf","description":"asdf","imagePath":"asdf","ingredients":[]},{"id":19,"name":"anthony","description":"Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123.0},{"name":"arandano","amount":123.0},{"name":"piña","amount":123.0}]},{"id":20,"name":"NUEVA RECETA","description":"nueva reeceta","imagePath":"ASDF","ingredients":[{"name":"pepetrueno","amount":1322.0},{"name":"pan","amount":12.0}]},{"id":21,"name":"Anthony","description":"Thony","imagePath":"receta","ingredients":[{"name":"asdf","amount":1231.0},{"name":"asdf","amount":1231.0}]},{"id":22,"name":"1231|23","description":"asd","imagePath":"asdas","ingredients":[]},{"id":23,"name":"qwerqw","description":"qwerqw","imagePath":"qwerqewr","ingredients":[{"name":"qwer","amount":123123.0}]},{"id":24,"name":"1234","description":"1234","imagePath":"12341","ingredients":[{"name":"1234","amount":1234.0}]}]}
+--------------------------------------
+2022-04-11 01:48:21 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 22
+Address: http://localhost:8080/api/recipe?id=8
+Encoding: UTF-8
+Http-Method: OPTIONS
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], access-control-request-headers=[content-type], access-control-request-method=[PUT], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:48:21 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 22
+Response-Code: 200
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Mon, 11 Apr 2022 04:48:21 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 01:48:21 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 23
+Address: http://localhost:8080/api/recipe?id=8
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[220], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Nuevo anthony","description":"Nuevo Anthony","imagePath":"asdf","ingredients":[{"name":"papino","amount":123},{"name":"arandano","amount":123},{"name":"piña","amount":123},{"name":"nuevo anthony","amount":19}]}
+--------------------------------------
+2022-04-11 01:48:21 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 23
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:48:21 GMT]}
+Payload: {"code":"404","description":"El registro que desea actualizar no existe"}
+--------------------------------------
+2022-04-11 01:49:59 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 24
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:49:59 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 24
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:49:59 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]}]}
+--------------------------------------
+2022-04-11 01:50:09 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 25
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:50:09 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 25
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:50:09 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]}]}
+--------------------------------------
+2022-04-11 01:51:47 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 26
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:51:47 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 26
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:51:47 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]}]}
+--------------------------------------
+2022-04-11 01:51:50 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 27
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:51:50 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 27
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:51:50 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]}]}
+--------------------------------------
+2022-04-11 01:53:20 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 28
+Address: http://localhost:8080/api/recipe?id=4
+Encoding: UTF-8
+Http-Method: OPTIONS
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], access-control-request-headers=[content-type], access-control-request-method=[PUT], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:53:20 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 28
+Response-Code: 200
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Mon, 11 Apr 2022 04:53:20 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 01:53:20 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 29
+Address: http://localhost:8080/api/recipe?id=4
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[274], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1},{"name":"huevo","amount":1}]}
+--------------------------------------
+2022-04-11 01:53:20 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 30
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:53:20 [http-nio-8080-exec-10] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 29
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:53:20 GMT]}
+Payload: {"code":"200","description":"Registro actualizado con exito"}
+--------------------------------------
+2022-04-11 01:53:20 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 30
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:53:20 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]}]}
+--------------------------------------
+2022-04-11 01:54:21 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 31
+Address: http://localhost:8080/api/recipe?id=3
+Encoding: UTF-8
+Http-Method: OPTIONS
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], access-control-request-headers=[content-type], access-control-request-method=[PUT], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:54:21 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 31
+Response-Code: 200
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Mon, 11 Apr 2022 04:54:21 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 01:54:21 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 33
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:54:21 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 33
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:54:21 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]}]}
+--------------------------------------
+2022-04-11 01:54:21 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 32
+Address: http://localhost:8080/api/recipe?id=3
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[261], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Arepa Frita","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1},{"name":"huevo","amount":1}]}
+--------------------------------------
+2022-04-11 01:54:21 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 32
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:54:21 GMT]}
+Payload: {"code":"200","description":"Registro actualizado con exito"}
+--------------------------------------
+2022-04-11 01:54:53 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 34
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:54:53 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 34
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:54:53 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Arepa Frita","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":4,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]}]}
+--------------------------------------
+2022-04-11 01:55:00 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 35
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:55:00 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 35
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:55:00 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Arepa Frita","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":4,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]}]}
+--------------------------------------
+2022-04-11 01:56:28 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 36
+Address: http://localhost:8080/api/recipe?id=5
+Encoding: UTF-8
+Http-Method: OPTIONS
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], access-control-request-headers=[content-type], access-control-request-method=[PUT], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:56:28 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 36
+Response-Code: 200
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Mon, 11 Apr 2022 04:56:28 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 01:56:28 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 38
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:56:28 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 37
+Address: http://localhost:8080/api/recipe?id=5
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[230], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Empanada","description":"Empanadita rica","imagePath":"https://lauchirena.com/wp-content/uploads/2019/04/empanadas-venezolanas-1-e1592960734638.jpg","ingredients":[{"name":"masa","amount":1},{"name":"aceite","amount":1}]}
+--------------------------------------
+2022-04-11 01:56:28 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 37
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:56:28 GMT]}
+Payload: {"code":"404","description":"El registro que desea actualizar no existe"}
+--------------------------------------
+2022-04-11 01:56:28 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 38
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:56:28 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Arepa Frita","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":4,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":6,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://ululeo.com/wp-content/uploads/2019/12/food-fast-food-plate-sandwich-94269_maxres.jpg","ingredients":[]},{"id":7,"name":"Arepa","description":"Hecha con arina de maiz precocida","imagePath":"https://t2.rg.ltmcdn.com/es/posts/0/0/3/arepas_de_fibra_58300_600.jpg","ingredients":[]}]}
+--------------------------------------
+2022-04-11 01:58:25 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 39
+Address: http://localhost:8080/api/recipe?id=0
+Encoding: UTF-8
+Http-Method: OPTIONS
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], access-control-request-headers=[content-type], access-control-request-method=[PUT], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:58:25 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 39
+Response-Code: 200
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Mon, 11 Apr 2022 04:58:25 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-11 01:58:25 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 40
+Address: http://localhost:8080/api/recipe?id=0
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[227], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Grasienta Hamburguesa ","description":"Tapa arteria","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"grasa","amount":1231}]}
+--------------------------------------
+2022-04-11 01:58:25 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 41
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:58:25 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 40
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:58:25 GMT]}
+Payload: {"code":"404","description":"El registro que desea actualizar no existe"}
+--------------------------------------
+2022-04-11 01:58:25 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 41
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:58:25 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Arepa Frita","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":4,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]}]}
+--------------------------------------
+2022-04-11 01:58:47 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 42
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:58:47 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 42
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:58:47 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Arepa Frita","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":4,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]}]}
+--------------------------------------
+2022-04-11 01:59:29 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 43
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 01:59:29 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 43
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 04:59:29 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Arepa Frita","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":4,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]}]}
+--------------------------------------
+2022-04-11 02:02:10 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 44
+Address: http://localhost:8080/api/recipe?id=0
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[263], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Grasienta Hamburguesa ","description":"La tapa arterias","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"grasa","amount":12},{"name":"mas grasa","amount":123}]}
+--------------------------------------
+2022-04-11 02:02:10 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 44
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 05:02:10 GMT]}
+Payload: {"code":"404","description":"El registro que desea actualizar no existe"}
+--------------------------------------
+2022-04-11 02:02:16 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 45
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 02:02:16 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 45
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 05:02:16 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Arepa Frita","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":4,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]}]}
+--------------------------------------
+2022-04-11 02:04:39 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 46
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 02:04:39 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 46
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 05:04:39 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Arepa Frita","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]},{"id":4,"name":"Arepa Frita con huequito","description":"Hecha con arina de maiz precocida y aceite","imagePath":"https://cdn.queapetito.com/wp-content/uploads/2019/12/arepas-de-huevo-colombianas-600x469.jpg","ingredients":[{"name":"arepa","amount":1.0},{"name":"huevo","amount":1.0}]}]}
+--------------------------------------
+2022-04-11 02:09:44 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 47
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 02:09:44 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 47
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 05:09:44 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]}]}
+--------------------------------------
+2022-04-11 02:13:52 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 48
+Address: http://localhost:8080/api/ingredient/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], postman-token=[7dd40def-e880-4dc9-871c-8b0f6f134ea8], user-agent=[PostmanRuntime/7.29.0]}
+--------------------------------------
+2022-04-11 02:13:52 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 48
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 05:13:52 GMT]}
+Payload: {"code":"200","description":"ok","ingredients":[{"name":"Garbanzos","amount":500.0},{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0},{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0},{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]}
+--------------------------------------
+2022-04-11 02:14:09 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 49
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-11 02:14:09 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 49
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 05:14:09 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]}]}
+--------------------------------------
+2022-04-11 02:18:28 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 50
+Address: http://localhost:8080/api/ingredient/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], postman-token=[48700999-dcf5-45c1-9ecd-03da8114d077], user-agent=[PostmanRuntime/7.29.0]}
+--------------------------------------
+2022-04-11 02:18:28 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 50
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Mon, 11 Apr 2022 05:18:28 GMT]}
+Payload: {"code":"200","description":"ok","ingredients":[{"name":"Garbanzos","amount":500.0},{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0},{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0},{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0},{"name":"Fritas","amount":20.0}]}
+--------------------------------------
