@@ -25,10 +25,12 @@ public class IngredientServiceImpl implements IngredientService{
 		response.setDescription("ok");
 		
 		Iterable<Ingredient> ingredients = ingredientDatasource.findAll();
-		for (Iterator iterator = ingredients.iterator(); iterator.hasNext();) {
-			Ingredient ingredient = (Ingredient) iterator.next();
+		
+		ingredients.forEach( daoIngredient -> {
+			
+			Ingredient ingredient = (Ingredient) daoIngredient;
 			response.getIngredients().add(ingredient);
-		}
+		});
 		
 		return response;
 		
