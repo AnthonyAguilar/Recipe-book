@@ -8,4 +8,5 @@ import app.recipe.entity.Recipe;
 @Repository
 public interface RecipeDatasource extends CrudRepository<Recipe, Long> {
 	
+
 }
