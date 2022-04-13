@@ -13,7 +13,7 @@ import app.datasource.RecipeDatasource;
 import app.dto.AbstractResponse;
 import app.dto.RecipesResponse;
 import app.dto.Ingredients;
-import app.dto.RequestNewRecipe;
+import app.dto.RequestRecipe;
 import app.dto.RequestUpdateRecipe;
 import app.recipe.entity.Ingredient;
 import app.recipe.entity.Recipe;
@@ -45,7 +45,7 @@ public class RecipeServiceImpl implements RecipeService {
 	}
 	
 	@Override
-	public AbstractResponse createRecipe( RequestNewRecipe request) {
+	public AbstractResponse createRecipe( RequestRecipe request) {
 
 		AbstractResponse response = new AbstractResponse();
 		
@@ -69,7 +69,7 @@ public class RecipeServiceImpl implements RecipeService {
 	}
 
 	@Override
-	public AbstractResponse updateRecipe(Long id, RequestUpdateRecipe request) {
+	public AbstractResponse updateRecipe(Long id, RequestRecipe request) {
 		
 		AbstractResponse response = new AbstractResponse();
 		try {			
@@ -134,7 +134,7 @@ public class RecipeServiceImpl implements RecipeService {
 			
 			Ingredient entityIngredient = new Ingredient();
 			entityIngredient.setName(reqIngredient.getName());
-			entityIngredient.setAmount(Double.parseDouble(reqIngredient.getAmount()));
+			entityIngredient.setAmount(reqIngredient.getAmount());
 			result.add(entityIngredient);
 		});
 

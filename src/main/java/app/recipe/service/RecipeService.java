@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import app.dto.AbstractResponse;
 import app.dto.RecipesResponse;
-import app.dto.RequestNewRecipe;
+import app.dto.RequestRecipe;
 import app.dto.RequestUpdateRecipe;
 
 
@@ -32,13 +32,13 @@ public interface RecipeService {
 	@POST
 	@Path("")
 	@Consumes("application/json")
-	public AbstractResponse createRecipe(@RequestBody RequestNewRecipe requestCreateRecipe); 
+	public AbstractResponse createRecipe(@RequestBody RequestRecipe requestCreateRecipe); 
 	
 	// curl -XPOST -H "Content-type: application/json" -d '{"id":"5","name":"Arepa", "description":"Hecha con arina de maiz precocida", "imagePath":"http://google.com.uy"}' 'http://localhost:8080/api/recipe/update'
     @PUT
     @Path("")
     @Consumes("application/json")
-    public AbstractResponse updateRecipe(@QueryParam("id")Long id, @RequestBody RequestUpdateRecipe requestUpdateRecipe);
+    public AbstractResponse updateRecipe(@QueryParam("id")Long id, @RequestBody RequestRecipe requestUpdateRecipe);
     
     // curl -XDELETE -H "Content-type: application/json" -d '{"id":"8","name":"Arepa", "description":"Hecha con arina de maiz precocida", "imagePath":"http://google.com.uy"}' 'http://localhost:8080/api/recipe/delete'
     @DELETE

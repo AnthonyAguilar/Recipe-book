@@ -6,11 +6,11 @@ public class Ingredients implements Serializable {
 	
 	private static final long serialVersionUID = 1L;
 	private String name;
-	private String amount;
+	private double amount;
 	
 	public Ingredients() {}
 	
-	public Ingredients(String name, String amount) {
+	public Ingredients(String name, double amount) {
 		this.name = name;
 		this.amount = amount;
 	}
@@ -23,11 +23,11 @@ public class Ingredients implements Serializable {
 		this.name = name;
 	}
 	
-	public String getAmount() {
+	public double getAmount() {
 		return amount;
 	}
 	
-	public void setAmount(String amount) {
+	public void setAmount(double amount) {
 		this.amount = amount;
 	}
 }
