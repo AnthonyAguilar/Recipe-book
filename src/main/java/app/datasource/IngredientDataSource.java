@@ -18,12 +18,11 @@ public interface IngredientDataSource extends JpaRepository<Ingredient, Serializ
 			+ "WHERE c.name = c.name\n"
 			+ "GROUP BY c.name", nativeQuery = true)
 	List<Object[]> findIngredientsNoRepeat(); 
-
-
-
-
-
-
+	
+	
+	
+	
+	
 	
 
 }

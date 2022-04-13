@@ -1,6 +1,5 @@
 package app.ingredient.service;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import org.slf4j.Logger;
@@ -8,9 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import app.datasource.IngredientDataSource;
-import app.dto.Ingredients;
 import app.dto.IngredientsResponse;
-import app.dto.IngredietItem;
 import app.recipe.entity.Ingredient;
 
 public class IngredientServiceImpl implements IngredientService{

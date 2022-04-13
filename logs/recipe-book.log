@@ -3658,3 +3658,279 @@ Content-Type: application/json
 Headers: {Content-Type=[application/json], Date=[Tue, 12 Apr 2022 05:59:05 GMT]}
 Payload: {"code":"200","description":"ok","ingredients":[{"name":"Carne","amount":2.0},{"name":"Fritas","amount":60.0},{"name":"Garbanzos","amount":500.0},{"name":"Macarrones","amount":50.0},{"name":"Panes","amount":2.0},{"name":"Queso","amount":4.0}]}
 --------------------------------------
+2022-04-12 13:15:37 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65d6b83b: startup date [Tue Apr 12 13:15:37 ART 2022]; root of context hierarchy
+2022-04-12 13:15:37 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/portal/context.xml]
+2022-04-12 13:15:38 [main] INFO  o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2022-04-12 13:15:39 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2022-04-12 13:15:39 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2160 ms
+2022-04-12 13:15:39 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2022-04-12 13:15:39 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'CXFServlet' to [/api/*]
+2022-04-12 13:15:39 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2022-04-12 13:15:39 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2022-04-12 13:15:39 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2022-04-12 13:15:39 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2022-04-12 13:15:39 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'simpleCORSFilter' to: [/*]
+2022-04-12 13:15:40 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2022-04-12 13:15:41 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-04-12 13:15:42 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@65d6b83b: startup date [Tue Apr 12 13:15:37 ART 2022]; root of context hierarchy
+2022-04-12 13:15:42 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2022-04-12 13:15:42 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2022-04-12 13:15:42 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-04-12 13:15:42 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-04-12 13:15:42 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2022-04-12 13:15:42 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2022-04-12 13:15:42 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2022-04-12 13:16:04 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 1
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-12 13:16:05 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 1
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 12 Apr 2022 16:16:05 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0},{"name":"Fritas","amount":20.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]}]}
+--------------------------------------
+2022-04-12 13:16:56 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 2
+Address: http://localhost:8080/api/recipe
+Encoding: UTF-8
+Http-Method: OPTIONS
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], access-control-request-headers=[content-type], access-control-request-method=[POST], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-12 13:16:56 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 2
+Response-Code: 200
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Tue, 12 Apr 2022 16:16:56 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-12 13:16:56 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 3
+Address: http://localhost:8080/api/recipe
+Encoding: UTF-8
+Http-Method: POST
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[168], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Hamburguesa grasienta y thony","description":"jojok","imagePath":"www.google.com","ingredients":[{"name":"asdf","amount":677},{"name":"nbkmop","amount":5667}]}
+--------------------------------------
+2022-04-12 13:16:56 [http-nio-8080-exec-2] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 3
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 12 Apr 2022 16:16:56 GMT]}
+Payload: {"code":"201","description":"Receta creada con exito"}
+--------------------------------------
+2022-04-12 13:17:01 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 4
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-12 13:17:01 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 4
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 12 Apr 2022 16:17:01 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0},{"name":"Fritas","amount":20.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":5,"name":"Hamburguesa grasienta y thony","description":"jojok","imagePath":"www.google.com","ingredients":[{"name":"asdf","amount":677.0},{"name":"nbkmop","amount":5667.0}]}]}
+--------------------------------------
+2022-04-12 13:17:30 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 5
+Address: http://localhost:8080/api/recipe?id=NaN
+Encoding: UTF-8
+Http-Method: OPTIONS
+Content-Type: 
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], access-control-request-headers=[content-type], access-control-request-method=[PUT], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-12 13:17:30 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 5
+Response-Code: 200
+Content-Type: 
+Headers: {Allow=[DELETE, POST, GET, PUT, OPTIONS, HEAD], Date=[Tue, 12 Apr 2022 16:17:30 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-12 13:17:30 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 6
+Address: http://localhost:8080/api/recipe?id=NaN
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[337], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Macarrones con queso y Thony","description":"Lo mejor que te pasó en la vida.thony","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50},{"name":"Queso","amount":4}]}
+--------------------------------------
+2022-04-12 13:17:30 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 6
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 12 Apr 2022 16:17:30 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-12 13:17:32 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 7
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-12 13:17:32 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 7
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 12 Apr 2022 16:17:32 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0},{"name":"Fritas","amount":20.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":5,"name":"Hamburguesa grasienta y thony","description":"jojok","imagePath":"www.google.com","ingredients":[{"name":"asdf","amount":677.0},{"name":"nbkmop","amount":5667.0}]}]}
+--------------------------------------
+2022-04-12 13:17:49 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 8
+Address: http://localhost:8080/api/recipe?id=NaN
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[327], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay  jhbgkjljghkl","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1},{"name":"Panes","amount":2},{"name":"Fritas","amount":20}]}
+--------------------------------------
+2022-04-12 13:17:49 [http-nio-8080-exec-8] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 8
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 12 Apr 2022 16:17:49 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-12 13:17:50 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 9
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-12 13:17:50 [http-nio-8080-exec-9] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 9
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 12 Apr 2022 16:17:50 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0},{"name":"Fritas","amount":20.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":5,"name":"Hamburguesa grasienta y thony","description":"jojok","imagePath":"www.google.com","ingredients":[{"name":"asdf","amount":677.0},{"name":"nbkmop","amount":5667.0}]}]}
+--------------------------------------
+2022-04-12 13:19:25 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 10
+Address: http://localhost:8080/api/recipe?id=NaN
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[313], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1},{"name":"Panes","amount":2},{"name":"Fritas","amount":20}]}
+--------------------------------------
+2022-04-12 13:19:25 [http-nio-8080-exec-1] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 10
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 12 Apr 2022 16:19:25 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-12 13:19:34 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 11
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-12 13:19:34 [http-nio-8080-exec-3] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 11
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 12 Apr 2022 16:19:34 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0},{"name":"Fritas","amount":20.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":5,"name":"Hamburguesa grasienta y thony","description":"jojok","imagePath":"www.google.com","ingredients":[{"name":"asdf","amount":677.0},{"name":"nbkmop","amount":5667.0}]}]}
+--------------------------------------
+2022-04-12 13:38:27 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 12
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-12 13:38:27 [http-nio-8080-exec-4] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 12
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 12 Apr 2022 16:38:27 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0},{"name":"Fritas","amount":20.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":5,"name":"Hamburguesa grasienta y thony","description":"jojok","imagePath":"www.google.com","ingredients":[{"name":"asdf","amount":677.0},{"name":"nbkmop","amount":5667.0}]}]}
+--------------------------------------
+2022-04-12 13:38:39 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 13
+Address: http://localhost:8080/api/recipe?id=NaN
+Encoding: UTF-8
+Http-Method: PUT
+Content-Type: application/json
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Length=[313], content-type=[application/json], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+Payload: {"name":"Hamburguesa grasienta y thony","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1},{"name":"Panes","amount":2},{"name":"Fritas","amount":20}]}
+--------------------------------------
+2022-04-12 13:38:39 [http-nio-8080-exec-5] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 13
+Response-Code: 404
+Content-Type: 
+Headers: {Date=[Tue, 12 Apr 2022 16:38:39 GMT], Content-Length=[0]}
+--------------------------------------
+2022-04-12 13:38:42 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 14
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-12 13:38:42 [http-nio-8080-exec-6] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 14
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 12 Apr 2022 16:38:42 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0},{"name":"Fritas","amount":20.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":5,"name":"Hamburguesa grasienta y thony","description":"jojok","imagePath":"www.google.com","ingredients":[{"name":"asdf","amount":677.0},{"name":"nbkmop","amount":5667.0}]}]}
+--------------------------------------
+2022-04-12 13:39:12 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingInInterceptor - Inbound Message
+----------------------------
+ID: 15
+Address: http://localhost:8080/api/recipe/all
+Encoding: UTF-8
+Http-Method: GET
+Content-Type: 
+Headers: {Accept=[application/json, text/plain, */*], accept-encoding=[gzip, deflate, br], accept-language=[es-ES,es;q=0.9,en;q=0.8], connection=[keep-alive], Content-Type=[null], host=[localhost:8080], origin=[http://localhost:4200], referer=[http://localhost:4200/], sec-ch-ua=[" Not A;Brand";v="99", "Chromium";v="100", "Google Chrome";v="100"], sec-ch-ua-mobile=[?0], sec-ch-ua-platform=["Windows"], sec-fetch-dest=[empty], sec-fetch-mode=[cors], sec-fetch-site=[same-site], user-agent=[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36]}
+--------------------------------------
+2022-04-12 13:39:12 [http-nio-8080-exec-7] INFO  o.a.c.i.LoggingOutInterceptor - Outbound Message
+---------------------------
+ID: 15
+Response-Code: 200
+Content-Type: application/json
+Headers: {Content-Type=[application/json], Date=[Tue, 12 Apr 2022 16:39:12 GMT]}
+Payload: {"code":"200","description":"ok","recipes":[{"id":1,"name":"Macarrones con queso","description":"Lo mejor que te pasó en la vida.","imagePath":"http://food.fnr.sndimg.com/content/dam/images/food/fullset/2011/11/14/0/WU-0103_mac-and-cheese_s4x3.jpg.rend.hgtvcom.616.462.suffix/1382541000580.jpeg","ingredients":[{"name":"Macarrones","amount":50.0},{"name":"Queso","amount":4.0}]},{"id":2,"name":"Hamburguesa grasienta","description":"Mejor que la que hace el chef Ramsay","imagePath":"https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg","ingredients":[{"name":"Carne","amount":1.0},{"name":"Panes","amount":2.0},{"name":"Fritas","amount":20.0}]},{"id":3,"name":"Milanga con fritas","description":"Mejor que la que te hace tu abuela","imagePath":"https://upload.wikimedia.org/wikipedia/commons/7/72/Schnitzel.JPG","ingredients":[{"name":"Carne","amount":1.0},{"name":"Fritas","amount":40.0}]},{"id":4,"name":"Humus","description":"Ideal para untar","imagePath":"https://i.ytimg.com/vi/EtU2f0qrGrY/maxresdefault.jpg","ingredients":[{"name":"Garbanzos","amount":500.0}]},{"id":5,"name":"Hamburguesa grasienta y thony","description":"jojok","imagePath":"www.google.com","ingredients":[{"name":"asdf","amount":677.0},{"name":"nbkmop","amount":5667.0}]}]}
+--------------------------------------
